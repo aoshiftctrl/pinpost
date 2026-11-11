@@ -28,7 +28,7 @@ Im Block-Editor erscheint im Status-Bereich des Beitragspanels die Checkbox „I
 
 == Installation ==
 
-1. Den Ordner `shft-pin-post` nach `wp-content/plugins/` kopieren.
+1. Den Ordner `shft-pin-post` nach `wp-content/plugins/` kopieren. Bei einem GitHub-ZIP heißt der entpackte Ordner `pinpost-main` und muss vorher in `shft-pin-post` umbenannt werden, sonst passt er nicht zur Text Domain.
 2. Das Plugin unter „Plugins“ aktivieren.
 3. Einen veröffentlichten Beitrag im Block-Editor öffnen und „In Kategorie anpinnen“ anhaken.
 

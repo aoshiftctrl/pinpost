@@ -16,7 +16,7 @@ WordPress-Plugin, das einen veröffentlichten Beitrag an die erste Stelle des Ka
 
 ## Installation
 
-1. Ordner nach `wp-content/plugins/shft-pin-post` kopieren.
+1. Ordner nach `wp-content/plugins/shft-pin-post` kopieren. Bei einem GitHub-ZIP heißt der entpackte Ordner `pinpost-main` und muss vorher in `shft-pin-post` umbenannt werden, sonst passt er nicht zur Text Domain.
 2. Plugin unter „Plugins“ aktivieren.
 3. Veröffentlichten Beitrag öffnen und „In Kategorie anpinnen“ anhaken.
 
