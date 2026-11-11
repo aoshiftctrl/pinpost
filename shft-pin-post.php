@@ -2,6 +2,7 @@
 
 /*
  * Plugin Name:       PinPost
+ * Plugin URI:        https://github.com/aoshiftctrl/pinpost
  * Description:       Pinnt einen veröffentlichten Beitrag an die erste Stelle des Kategorie-Archives. Es kann immer nur ein Beitrag gepinnt sein.
  * Version:           1.1.2
  * Requires at least: 6.6
