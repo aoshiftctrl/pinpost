@@ -66,6 +66,8 @@ Aus demselben Grund: Der Editor kennt den aktuellen Pin nur vom Laden der Seite.
 
 Jeder, der den Beitrag bearbeiten darf (`edit_post`). Autoren können also ihre eigenen veröffentlichten Beiträge pinnen.
 
+Das ist bewusst so. Der Pin gilt für die ganze Website und es gibt nur einen: Pinnt ein Autor seinen Beitrag, sehen alle anderen „Bereits gepinnt“, bis er den Pin löst oder ein Redakteur ihn löst (Redakteure dürfen jeden Beitrag bearbeiten). Fremde Pins kann ein Autor nicht lösen, nur den Pin des eigenen Beitrags. Wer das nicht möchte, sollte Autoren keine Beiträge veröffentlichen lassen.
+
 == Changelog ==
 
 = 1.1.2 =

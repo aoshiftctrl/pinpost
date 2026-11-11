@@ -71,7 +71,7 @@ Version 1.0 speicherte den Pin als Post-Meta `_shft_pinned`. Beim ersten Laden v
 
 ## Bekannte Einschränkungen
 
-- Jeder mit `edit_post` darf pinnen. Autoren können also ihre eigenen veröffentlichten Beiträge pinnen.
+- Jeder mit `edit_post` darf pinnen (bewusst, keine Prüfung auf `edit_others_posts`). Autoren können also ihre eigenen veröffentlichten Beiträge pinnen und blockieren damit den einen Pin der Website, bis sie oder ein Redakteur ihn lösen. Fremde Pins lösen können sie nicht.
 - Passwortgeschützte Beiträge können gepinnt werden und bleiben es.
 - Der Editor kennt den aktuellen Pin nur vom Laden der Seite. Pinnt jemand anderes in der Zwischenzeit, meldet der Server beim Speichern `shft_pp_taken` und speichert nichts.
 - Restfenster: Pinnt jemand zwischen der Vorabprüfung und dem `update_callback` desselben Requests, ist der Beitrag schon gespeichert, wenn der Pin abgelehnt wird. Der Editor meldet dann einen Fehler, obwohl der Inhalt übernommen wurde.
